@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val toast = Toast.makeText(applicationContext, text, duration)
         toast.show()
         val downloadIntent = Intent(this, MainActivity2::class.java)
-        startService(downloadIntent)
+        startActivity(downloadIntent)
     }
 
 }

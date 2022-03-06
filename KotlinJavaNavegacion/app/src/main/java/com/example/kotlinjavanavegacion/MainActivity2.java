@@ -26,7 +26,7 @@ public class MainActivity2 extends AppCompatActivity {
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
         Intent downloadIntent = new Intent(this, MainActivity.class);
-        startService(downloadIntent);
+        startActivity(downloadIntent);
     }
 
 }
